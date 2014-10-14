@@ -1,4 +1,4 @@
-package { 'json':
+package { 'hocon':
   ensure   => present,
-  provider => pe_gem,
+  provider => pe_puppetserver_gem,
 }
